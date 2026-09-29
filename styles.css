@@ -1,0 +1,53 @@
+/* ==========================================================================
+   MAATI - AGRITECH PRODUCT PORTFOLIO DESIGN SYSTEM
+   Clean, Modern, Rounded, Agricultural Green/White Aesthetic
+   ========================================================================== */
+
+/* Custom Smooth Scrolling & Typography Smoothing */
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar for Clean UI */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fbfcf9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #16a34a;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #15803d;
+}
+
+/* Rounded Card Shadows */
+.shadow-xs {
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+/* Subtle Hover Transitions */
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+/* Image Hover Zoom Utility */
+.group:hover img {
+    transform: scale(1.03);
+}
+
+/* Form Focus Rings */
+a:focus-visible, button:focus-visible {
+    outline: 2px solid #22c55e;
+    outline-offset: 2px;
+}
