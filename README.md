@@ -1,7 +1,7 @@
 # MAATI — AI-Powered Multilingual Precision Agriculture & Smart Irrigation Platform
 
 > **Smart India Hackathon 2026**  
-> **Problem Statement ID:** SIH26180  
+> **Problem Statement ID:** SIH26210  
 > **Theme:** Smart Farming Assistance  
 > **Category:** Hardware  
 > **Team:** MAATI  
